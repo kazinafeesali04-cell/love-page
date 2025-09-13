@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love for Misti Mista</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3em;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+      animation: move 3s infinite alternate;
+    }
+    h2 {
+      margin-top: 10px;
+      font-size: 1.5em;
+      color: #fff;
+      opacity: 0.9;
+    }
+    @keyframes move {
+      from { transform: translateY(0px); }
+      to { transform: translateY(-20px); }
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 1.2em;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>I Love You ❤️</h1>
+  <h2>I want to stay till the end</h2>
+  <div class="footer">For Misti Mista</div>
+
+  <!-- Song auto play -->
+  <audio autoplay loop>
+    <source src="https://od.lk/s/NzNfMjMyNzc2NjFf/jabse_dekha.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+</body>
+</html>
